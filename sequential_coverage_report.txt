@@ -1,0 +1,254 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/SVA
+=== Design Unit: work.fifo_sva
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      31        31         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/DUT/SVA/overflow_assertion
+                     fifo_sva.sv(109)                   0        164        822         50       1036          0           2 off
+/top/DUT/SVA/underflow_assertion
+                     fifo_sva.sv(110)                   0         25        966         45       1036          0           2 off
+/top/DUT/SVA/wr_ack_assertion
+                     fifo_sva.sv(111)                   0        506        465         64       1036          1           2 off
+/top/DUT/SVA/overflow_inac_assertion
+                     fifo_sva.sv(113)                   0        785        169         81       1036          1           2 off
+/top/DUT/SVA/underflow_inac_assertion
+                     fifo_sva.sv(114)                   0        924         25         86       1036          1           2 off
+/top/DUT/SVA/wr_ack_inac_assertion
+                     fifo_sva.sv(115)                   0        443        526         67       1036          0           2 off
+/top/DUT/SVA/full_assertion
+                     fifo_sva.sv(117)                   0        249        787          0       1036          0           1 off
+/top/DUT/SVA/almostfull_assertion
+                     fifo_sva.sv(118)                   0        188        848          0       1036          0           1 off
+/top/DUT/SVA/empty_assertion
+                     fifo_sva.sv(119)                   0        108        928          0       1036          0           1 off
+/top/DUT/SVA/almostempty_assertion
+                     fifo_sva.sv(120)                   0         72        964          0       1036          0           1 off
+/top/DUT/SVA/full_inac_assertion
+                     fifo_sva.sv(122)                   0        787        249          0       1036          0           1 off
+/top/DUT/SVA/almostfull_inac_assertion
+                     fifo_sva.sv(123)                   0        848        188          0       1036          0           1 off
+/top/DUT/SVA/empty_inac_assertion
+                     fifo_sva.sv(124)                   0        928        108          0       1036          0           1 off
+/top/DUT/SVA/almostempty_inac_assertion
+                     fifo_sva.sv(125)                   0        964         72          0       1036          0           1 off
+/top/DUT/SVA/wr_ptr_assertion
+                     fifo_sva.sv(127)                   0        506        465         64       1036          1           2 off
+/top/DUT/SVA/rd_ptr_assertion
+                     fifo_sva.sv(128)                   0        286        692         57       1036          1           2 off
+/top/DUT/SVA/count_wr_assertion
+                     fifo_sva.sv(130)                   0        344        633         59       1036          0           2 off
+/top/DUT/SVA/count_rd_assertion
+                     fifo_sva.sv(131)                   0         93        894         49       1036          0           2 off
+/top/DUT/SVA/count_wr_rd_assertion
+                     fifo_sva.sv(132)                   0        146        839         50       1036          1           2 off
+/top/DUT/SVA/countfull_wr_rd_assertion
+                     fifo_sva.sv(133)                   0         47        941         48       1036          0           1 off
+/top/DUT/SVA/countempty_wr_rd_assertion
+                     fifo_sva.sv(134)                   0         16        975         45       1036          0           1 off
+/top/DUT/SVA/ptr_count_assertion
+                     fifo_sva.sv(165)                   0        991          0         45       1036          0           1 off
+/top/DUT/SVA/count_range_assertion
+                     fifo_sva.sv(166)                   0        991          0         45       1036          0           1 off
+/top/DUT/SVA/full_empty_excl_assertion
+                     fifo_sva.sv(167)                   0        991          0         45       1036          0           1 off
+/top/DUT/SVA/data_out_stable_assertion
+                     fifo_sva.sv(168)                   0        663        299         74       1036          0           2 off
+/top/DUT/SVA/rst_overflow_assert
+                     fifo_sva.sv(176)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_underflow_assert
+                     fifo_sva.sv(177)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_wr_ack_assert
+                     fifo_sva.sv(178)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_wr_ptr_assert
+                     fifo_sva.sv(179)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_rd_ptr_assert
+                     fifo_sva.sv(180)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_count_assert
+                     fifo_sva.sv(181)                   0         42          0          0         42          0           0 off
+
+Directive Coverage:
+    Directives                      31        31         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/SVA/overflow_coverage           fifo_sva Verilog  SVA  fifo_sva.sv(137) 164 Covered   
+/top/DUT/SVA/underflow_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(138)  25 Covered   
+/top/DUT/SVA/wr_ack_coverage             fifo_sva Verilog  SVA  fifo_sva.sv(139) 506 Covered   
+/top/DUT/SVA/overflow_inac_coverage      fifo_sva Verilog  SVA  fifo_sva.sv(141) 785 Covered   
+/top/DUT/SVA/underflow_inac_coverage     fifo_sva Verilog  SVA  fifo_sva.sv(142) 924 Covered   
+/top/DUT/SVA/wr_ack_inac_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(143) 443 Covered   
+/top/DUT/SVA/full_coverage               fifo_sva Verilog  SVA  fifo_sva.sv(145) 249 Covered   
+/top/DUT/SVA/almostfull_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(146) 188 Covered   
+/top/DUT/SVA/empty_coverage              fifo_sva Verilog  SVA  fifo_sva.sv(147) 108 Covered   
+/top/DUT/SVA/almostempty_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(148)  72 Covered   
+/top/DUT/SVA/full_inac_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(150) 787 Covered   
+/top/DUT/SVA/almostfull_inac_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(151) 848 Covered   
+/top/DUT/SVA/empty_inac_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(152) 928 Covered   
+/top/DUT/SVA/almostempty_inac_coverage   fifo_sva Verilog  SVA  fifo_sva.sv(153) 964 Covered   
+/top/DUT/SVA/wr_ptr_coverage             fifo_sva Verilog  SVA  fifo_sva.sv(155) 506 Covered   
+/top/DUT/SVA/rd_ptr_coverage             fifo_sva Verilog  SVA  fifo_sva.sv(156) 286 Covered   
+/top/DUT/SVA/count_wr_coverage           fifo_sva Verilog  SVA  fifo_sva.sv(158) 344 Covered   
+/top/DUT/SVA/count_rd_coverage           fifo_sva Verilog  SVA  fifo_sva.sv(159)  93 Covered   
+/top/DUT/SVA/count_wr_rd_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(160) 146 Covered   
+/top/DUT/SVA/countfull_wr_rd_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(161)  47 Covered   
+/top/DUT/SVA/countempty_wr_rd_coverage   fifo_sva Verilog  SVA  fifo_sva.sv(162)  16 Covered   
+/top/DUT/SVA/ptr_count_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(170) 991 Covered   
+/top/DUT/SVA/count_range_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(171) 991 Covered   
+/top/DUT/SVA/full_empty_excl_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(172) 991 Covered   
+/top/DUT/SVA/data_out_stable_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(173) 663 Covered   
+/top/DUT/SVA/rst_overflow_coverage       fifo_sva Verilog  SVA  fifo_sva.sv(183)  42 Covered   
+/top/DUT/SVA/rst_underflow_coverage      fifo_sva Verilog  SVA  fifo_sva.sv(184)  42 Covered   
+/top/DUT/SVA/rst_wr_ack_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(185)  42 Covered   
+/top/DUT/SVA/rst_wr_ptr_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(186)  42 Covered   
+/top/DUT/SVA/rst_rd_ptr_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(187)  42 Covered   
+/top/DUT/SVA/rst_count_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(188)  42 Covered   
+
+=================================================================================
+=== Instance: /fifo_sequence_pkg
+=== Design Unit: work.fifo_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       4         4         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/fifo_sequence_pkg/Write_only/body/#ublk#40571367#42/immed__48
+                     fifo_sequence_pkg.sv(48)           0         10          0          0         10          0           0 off
+/fifo_sequence_pkg/Read_only/body/#ublk#40571367#64/immed__69
+                     fifo_sequence_pkg.sv(69)           0         10          0          0         10          0           0 off
+/fifo_sequence_pkg/Write_Read/body/#ublk#40571367#85/immed__92
+                     fifo_sequence_pkg.sv(92)           0       1000          0          0       1000          0           0 off
+/fifo_sequence_pkg/Write_Read_Always/body/#ublk#40571367#108/immed__114
+                     fifo_sequence_pkg.sv(114)          0         10          0          0         10          0           0 off
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/SVA/overflow_coverage           fifo_sva Verilog  SVA  fifo_sva.sv(137) 164 Covered   
+/top/DUT/SVA/underflow_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(138)  25 Covered   
+/top/DUT/SVA/wr_ack_coverage             fifo_sva Verilog  SVA  fifo_sva.sv(139) 506 Covered   
+/top/DUT/SVA/overflow_inac_coverage      fifo_sva Verilog  SVA  fifo_sva.sv(141) 785 Covered   
+/top/DUT/SVA/underflow_inac_coverage     fifo_sva Verilog  SVA  fifo_sva.sv(142) 924 Covered   
+/top/DUT/SVA/wr_ack_inac_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(143) 443 Covered   
+/top/DUT/SVA/full_coverage               fifo_sva Verilog  SVA  fifo_sva.sv(145) 249 Covered   
+/top/DUT/SVA/almostfull_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(146) 188 Covered   
+/top/DUT/SVA/empty_coverage              fifo_sva Verilog  SVA  fifo_sva.sv(147) 108 Covered   
+/top/DUT/SVA/almostempty_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(148)  72 Covered   
+/top/DUT/SVA/full_inac_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(150) 787 Covered   
+/top/DUT/SVA/almostfull_inac_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(151) 848 Covered   
+/top/DUT/SVA/empty_inac_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(152) 928 Covered   
+/top/DUT/SVA/almostempty_inac_coverage   fifo_sva Verilog  SVA  fifo_sva.sv(153) 964 Covered   
+/top/DUT/SVA/wr_ptr_coverage             fifo_sva Verilog  SVA  fifo_sva.sv(155) 506 Covered   
+/top/DUT/SVA/rd_ptr_coverage             fifo_sva Verilog  SVA  fifo_sva.sv(156) 286 Covered   
+/top/DUT/SVA/count_wr_coverage           fifo_sva Verilog  SVA  fifo_sva.sv(158) 344 Covered   
+/top/DUT/SVA/count_rd_coverage           fifo_sva Verilog  SVA  fifo_sva.sv(159)  93 Covered   
+/top/DUT/SVA/count_wr_rd_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(160) 146 Covered   
+/top/DUT/SVA/countfull_wr_rd_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(161)  47 Covered   
+/top/DUT/SVA/countempty_wr_rd_coverage   fifo_sva Verilog  SVA  fifo_sva.sv(162)  16 Covered   
+/top/DUT/SVA/ptr_count_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(170) 991 Covered   
+/top/DUT/SVA/count_range_coverage        fifo_sva Verilog  SVA  fifo_sva.sv(171) 991 Covered   
+/top/DUT/SVA/full_empty_excl_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(172) 991 Covered   
+/top/DUT/SVA/data_out_stable_coverage    fifo_sva Verilog  SVA  fifo_sva.sv(173) 663 Covered   
+/top/DUT/SVA/rst_overflow_coverage       fifo_sva Verilog  SVA  fifo_sva.sv(183)  42 Covered   
+/top/DUT/SVA/rst_underflow_coverage      fifo_sva Verilog  SVA  fifo_sva.sv(184)  42 Covered   
+/top/DUT/SVA/rst_wr_ack_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(185)  42 Covered   
+/top/DUT/SVA/rst_wr_ptr_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(186)  42 Covered   
+/top/DUT/SVA/rst_rd_ptr_coverage         fifo_sva Verilog  SVA  fifo_sva.sv(187)  42 Covered   
+/top/DUT/SVA/rst_count_coverage          fifo_sva Verilog  SVA  fifo_sva.sv(188)  42 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 31
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/DUT/SVA/overflow_assertion
+                     fifo_sva.sv(109)                   0        164        822         50       1036          0           2 off
+/top/DUT/SVA/underflow_assertion
+                     fifo_sva.sv(110)                   0         25        966         45       1036          0           2 off
+/top/DUT/SVA/wr_ack_assertion
+                     fifo_sva.sv(111)                   0        506        465         64       1036          1           2 off
+/top/DUT/SVA/overflow_inac_assertion
+                     fifo_sva.sv(113)                   0        785        169         81       1036          1           2 off
+/top/DUT/SVA/underflow_inac_assertion
+                     fifo_sva.sv(114)                   0        924         25         86       1036          1           2 off
+/top/DUT/SVA/wr_ack_inac_assertion
+                     fifo_sva.sv(115)                   0        443        526         67       1036          0           2 off
+/top/DUT/SVA/full_assertion
+                     fifo_sva.sv(117)                   0        249        787          0       1036          0           1 off
+/top/DUT/SVA/almostfull_assertion
+                     fifo_sva.sv(118)                   0        188        848          0       1036          0           1 off
+/top/DUT/SVA/empty_assertion
+                     fifo_sva.sv(119)                   0        108        928          0       1036          0           1 off
+/top/DUT/SVA/almostempty_assertion
+                     fifo_sva.sv(120)                   0         72        964          0       1036          0           1 off
+/top/DUT/SVA/full_inac_assertion
+                     fifo_sva.sv(122)                   0        787        249          0       1036          0           1 off
+/top/DUT/SVA/almostfull_inac_assertion
+                     fifo_sva.sv(123)                   0        848        188          0       1036          0           1 off
+/top/DUT/SVA/empty_inac_assertion
+                     fifo_sva.sv(124)                   0        928        108          0       1036          0           1 off
+/top/DUT/SVA/almostempty_inac_assertion
+                     fifo_sva.sv(125)                   0        964         72          0       1036          0           1 off
+/top/DUT/SVA/wr_ptr_assertion
+                     fifo_sva.sv(127)                   0        506        465         64       1036          1           2 off
+/top/DUT/SVA/rd_ptr_assertion
+                     fifo_sva.sv(128)                   0        286        692         57       1036          1           2 off
+/top/DUT/SVA/count_wr_assertion
+                     fifo_sva.sv(130)                   0        344        633         59       1036          0           2 off
+/top/DUT/SVA/count_rd_assertion
+                     fifo_sva.sv(131)                   0         93        894         49       1036          0           2 off
+/top/DUT/SVA/count_wr_rd_assertion
+                     fifo_sva.sv(132)                   0        146        839         50       1036          1           2 off
+/top/DUT/SVA/countfull_wr_rd_assertion
+                     fifo_sva.sv(133)                   0         47        941         48       1036          0           1 off
+/top/DUT/SVA/countempty_wr_rd_assertion
+                     fifo_sva.sv(134)                   0         16        975         45       1036          0           1 off
+/top/DUT/SVA/ptr_count_assertion
+                     fifo_sva.sv(165)                   0        991          0         45       1036          0           1 off
+/top/DUT/SVA/count_range_assertion
+                     fifo_sva.sv(166)                   0        991          0         45       1036          0           1 off
+/top/DUT/SVA/full_empty_excl_assertion
+                     fifo_sva.sv(167)                   0        991          0         45       1036          0           1 off
+/top/DUT/SVA/data_out_stable_assertion
+                     fifo_sva.sv(168)                   0        663        299         74       1036          0           2 off
+/top/DUT/SVA/rst_overflow_assert
+                     fifo_sva.sv(176)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_underflow_assert
+                     fifo_sva.sv(177)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_wr_ack_assert
+                     fifo_sva.sv(178)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_wr_ptr_assert
+                     fifo_sva.sv(179)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_rd_ptr_assert
+                     fifo_sva.sv(180)                   0         42          0          0         42          0           0 off
+/top/DUT/SVA/rst_count_assert
+                     fifo_sva.sv(181)                   0         42          0          0         42          0           0 off
+/fifo_sequence_pkg/Write_only/body/#ublk#40571367#42/immed__48
+                     fifo_sequence_pkg.sv(48)           0         10          0          0         10          0           0 off
+/fifo_sequence_pkg/Read_only/body/#ublk#40571367#64/immed__69
+                     fifo_sequence_pkg.sv(69)           0         10          0          0         10          0           0 off
+/fifo_sequence_pkg/Write_Read/body/#ublk#40571367#85/immed__92
+                     fifo_sequence_pkg.sv(92)           0       1000          0          0       1000          0           0 off
+/fifo_sequence_pkg/Write_Read_Always/body/#ublk#40571367#108/immed__114
+                     fifo_sequence_pkg.sv(114)          0         10          0          0         10          0           0 off
+
+Total Coverage By Instance (filtered view): 100.00%
+
